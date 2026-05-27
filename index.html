@@ -1,73 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B2B Mobile Wholesale Portal</title>
+    <title>Mobile Moovers Inc | B2B Wholesale Trading</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-50 text-gray-900 font-sans">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
 
-    <nav class="bg-blue-900 text-white p-4 shadow-md">
-        <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <div class="text-2xl font-bold tracking-wider">
-                <img src="logo.png" alt="A description of the picture">
+        /* Creates a professional frosted glass effect */
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-slate-900 text-slate-300 antialiased selection:bg-indigo-500 selection:text-white">
+
+    <nav class="border-b border-slate-800 bg-white sticky top-0 z-50 backdrop-blur-md">
+        <div class="mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-start gap-2">
+                <img src="logo.png" description="Logo" class="max-w-36" />
             </div>
-            <div>
-                <a href="#" class="px-4 hover:text-blue-300">Features</a>
-                <a href="#" class="px-4 hover:text-blue-300">API</a>
-                <button class="bg-blue-600 hover:bg-blue-500 px-5 py-2 rounded font-semibold ml-4">Retailer Login</button>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#" class="text-sm font-semibold text-gray-400 hover:text-indigo-400 transition-colors">Market
+                    Data</a>
+                <a href="#" class="text-sm font-semibold text-gray-400 hover:text-indigo-400 transition-colors">API
+                    Access</a>
+                <button
+                    class="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2 rounded-md text-sm font-semibold transition-all shadow-[0_0_15px_rgba(79,70,229,0.4)]">
+                    Retailer Login
+                </button>
             </div>
         </div>
     </nav>
 
-    <header class="max-w-7xl mx-auto px-4 py-20 text-center">
-        <h1 class="text-5xl font-extrabold mb-6 text-gray-800">
-            Track Wholesale Mobile Prices in Real-Time
+    <header class="max-w-7xl mx-auto px-6 py-24 text-center relative">
+        <div
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-indigo-600/20 rounded-full blur-[100px] -z-10">
+        </div>
+
+        <h1 class="text-5xl md:text-6xl font-extrabold mb-6 text-white tracking-tight">
+            Trade Mobile Hardware Like <br class="hidden md:block">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-emerald-400">Financial
+                Commodities</span>
         </h1>
-        <p class="text-xl text-gray-600 mb-10 max-w-3xl mx-auto">
-            The ultimate B2B commodity platform for mobile retailers. Analyze historical hardware depreciation, track supply volume, and execute bulk inventory purchases at the perfect time.
+        <p class="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto font-light">
+            The institutional-grade B2B portal for mobile retailers. Analyze historical device depreciation, track
+            global supply volumes, and execute bulk purchases with precision.
         </p>
-        <button class="bg-green-600 hover:bg-green-500 text-white px-8 py-4 rounded-lg text-lg font-bold shadow-lg">
-            Apply for Reseller Access
+        <button
+            class="bg-emerald-500 hover:bg-emerald-400 text-slate-900 px-8 py-4 rounded-lg text-lg font-bold transition-all shadow-[0_0_20px_rgba(16,185,129,0.3)] hover:-translate-y-1">
+            Request API Key & Access
         </button>
     </header>
 
-    <section class="max-w-6xl mx-auto px-4 pb-20">
-        <div class="bg-white p-6 rounded-xl shadow-xl border border-gray-200">
-            <div class="flex justify-between items-center mb-4">
-                <h2 class="text-2xl font-bold text-gray-800">Wholesale Market Analytics</h2>
-                <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-3 py-1 rounded">Live Data Feed</span>
-            </div>
-            
-            <div class="w-full h-96 bg-gray-100 rounded border-2 border-dashed border-gray-300 flex flex-col items-center justify-center text-gray-500">
-                <svg class="w-16 h-16 mb-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path></svg>
-                <p class="text-lg font-medium">Interactive Charting Interface</p>
-                <p class="text-sm">(TradingView Advanced Charts Integration Pending)</p>
+    <section class="max-w-6xl mx-auto px-6 pb-24 relative z-10">
+        <div class="glass-panel p-2 rounded-2xl shadow-2xl">
+            <div class="bg-slate-950 rounded-xl p-6 border border-slate-800">
+                <div class="flex justify-between items-center mb-6">
+                    <div>
+                        <h2 class="text-xl font-bold text-white">iPhone 15 Pro Max (256GB) Wholesale Value</h2>
+                        <p class="text-sm text-slate-500">Live Global Averages • USD</p>
+                    </div>
+                    <span
+                        class="bg-emerald-500/10 text-emerald-400 text-xs font-bold px-3 py-1.5 rounded-full border border-emerald-500/20 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                        LIVE FEED
+                    </span>
+                </div>
+
+                <div
+                    class="w-full h-[500px] bg-slate-900 rounded-lg border border-slate-800 flex flex-col items-center justify-center text-slate-600 relative overflow-hidden">
+                    <div
+                        class="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:40px_40px] opacity-20">
+                    </div>
+
+                    <svg class="w-20 h-20 mb-4 text-slate-700 relative z-10" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M8 13v-1m4 1v-3m4 3V8M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z">
+                        </path>
+                    </svg>
+                    <p class="text-xl font-medium text-slate-400 relative z-10">Advanced Charting Engine Loading...</p>
+                    <p class="text-sm mt-2 relative z-10">Awaiting TradingView Library Authentication</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-white py-16 border-t border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div class="p-4">
-                <h3 class="text-xl font-bold mb-2">Technical Analysis</h3>
-                <p class="text-gray-600">Apply advanced drawing tools and indicators to historical smartphone pricing data to forecast market dips.</p>
+    <section class="border-t border-slate-800 bg-slate-900/50 py-24">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
+            <div>
+                <div
+                    class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-6 border border-indigo-500/20 mx-auto md:mx-0">
+                    <svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-white">Technical Analysis</h3>
+                <p class="text-slate-400 leading-relaxed">Apply advanced drawing tools, moving averages, and custom
+                    indicators to historical smartphone pricing data to forecast market dips.</p>
             </div>
-            <div class="p-4">
-                <h3 class="text-xl font-bold mb-2">Direct Order Execution</h3>
-                <p class="text-gray-600">Connect directly to our inventory ledger. Buy bulk units straight from the charting interface when prices hit your targets.</p>
+            <div>
+                <div
+                    class="w-12 h-12 bg-emerald-500/10 rounded-lg flex items-center justify-center mb-6 border border-emerald-500/20 mx-auto md:mx-0">
+                    <svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-white">Direct Order Execution</h3>
+                <p class="text-slate-400 leading-relaxed">Connect directly to our inventory ledger. Execute bulk unit
+                    purchases straight from the charting interface when prices hit your exact targets.</p>
             </div>
-            <div class="p-4">
-                <h3 class="text-xl font-bold mb-2">Supply Chain Transparency</h3>
-                <p class="text-gray-600">Overlay component costs, shipping freight data, and global stock levels to understand macroeconomic pricing factors.</p>
+            <div>
+                <div
+                    class="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center mb-6 border border-blue-500/20 mx-auto md:mx-0">
+                    <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-white">Global Supply Transparency</h3>
+                <p class="text-slate-400 leading-relaxed">Overlay component costs, international shipping freight data,
+                    and warehouse stock levels to understand the macroeconomic factors driving prices.</p>
             </div>
         </div>
     </section>
 
-    <footer class="bg-gray-900 text-gray-400 py-8 text-center">
-        <p>&copy; 2026 GlobalMobile Distro. All rights reserved. B2B Wholesale Only.</p>
+    <footer class="border-t border-slate-800 bg-slate-950 text-slate-500 py-12 text-sm text-center">
+        <p class="mb-2">&copy; 2026 Mobile Moovers Inc. For authorized B2B network partners only.</p>
+        <p>Headquarters: Bengaluru, Karnataka, India • Support: support@mobilemoovers.com</p>
     </footer>
 
 </body>
+
 </html>
